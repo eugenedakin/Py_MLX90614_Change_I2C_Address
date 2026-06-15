@@ -1,9 +1,11 @@
 # Py_MLX90614_Change_I2C_Address
 Changes I2C address from 0x5A to 0x5C for the MLX90614 contactless thermometer using infrared radiation, on a Raspberry Pi 4. 
 
-This Python program for the Raspberry Pi 4 uses the GY-906 sensor on the MLX90614 module board to rewrite the default address of 0x5a (hexadecimal) to 0x5c (hexadecimal). Please ensure I2C communication protocol is enabled on the Raspberry Pi. Below is a screen grab of the running program.
+This Python program for the Raspberry Pi 4 uses the GY-906 sensor on the MLX90614 module board to rewrite the default address of 0x5a (hexadecimal) to 0x5c (hexadecimal). Please ensure I2C communication protocol is enabled on the Raspberry Pi. 
 
-Screen grab of running program on Raspberry Pi 4:
+Below is a screen grab of the running program.
+
+
 ![](https://github.com/eugenedakin/Py_MLX90614_Change_I2C_Address/blob/main/ScreenGrab.png)
 
 Installation instructions:
