@@ -1,0 +1,19 @@
+# Set default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Force LF (Linux/macOS style) line endings for Python files
+*.py text eol=lf
+
+# Explicitly flag C/C++ files (often used in embedded MLX90614 libraries) as text
+*.c text eol=lf
+*.h text eol=lf
+
+# Force text handling for documentation
+*.md text
+*.txt text
+
+# Keep binary files (like compiled binaries or images) untouched
+*.bin binary
+*.jpg binary
+*.png binary
+*.uf2 binary
